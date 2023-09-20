@@ -64,7 +64,7 @@ Em novo bloco, crio uma função privada para criar e selecionar o banco de dado
 
 Usando a biblioteca importada de SQL, pude fazer a classe privada de criação de tabelas, com Código em SQL para cada uma; depois disso, há um try buscando a execução de cada uma delas.
 
-Em um novo bloco de códigos, temos a classe pública de inserir pessoa; com os dados informados no desafio; e ao mesmo tempo, os valores “(?, ?, ?)” foram inseridos de maneira inicial, porque o programa possui um espaço de preenchimento (por via terminal) para a substituição destes valores; este mesmo bloco possui os getters dentro de um try para continuidade do código, e um programa de erro em caso de nenhum dos comandos anteriores serem executados. Esta mesma lógica é usada para inserir a conta.
+Em um novo bloco de códigos, temos a classe pública de inserir pessoa; com os dados informados no desafio; e ao mesmo tempo, os valores “(?, ?, ?)” foram inseridos de maneira inicial, porque o programa possui um espaço de preenchimento (por via terminal, dentro do próprio código) para a substituição destes valores; este mesmo bloco possui os getters dentro de um try para continuidade do código, e um programa de erro em caso de nenhum dos comandos anteriores serem executados. Esta mesma lógica é usada para inserir a conta.
 
 A partir da linha 84, já trago aqui uma função pública para consultar pessoa por ID. Assim, aqui é executado o comando de seleção em SQL, com um try de busca e conexão com a tabela, onde também valida-se os getters e setters do código, mediante uma condicional. O mesmo raciocínio também é válido para a busca da conta
 
